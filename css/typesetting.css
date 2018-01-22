@@ -1,0 +1,81 @@
+/* Embedded Fonts */
+
+@font-face {
+	font-family: Josefin Sans;
+	src:url(../fonts/josefinsans_regular.ttf);
+}
+
+@font-face {
+	font-family: Josefin Sans Bold;
+	src:url(../fonts/josefinsans_bold.ttf);
+}
+
+
+
+
+
+/* Container Items */
+
+html,body {
+	width: 100%;
+	height: 100%;
+	
+}
+
+#cover {
+	width: 100%;
+	height: 100%;
+	background: url("../images/cover.jpg") center fixed;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+}
+
+#container {
+	height: 400px;
+	position: relative;
+	background-color: black;
+}
+
+
+
+/* Paragraph Styles */
+
+.title {
+	font-family: Josefin Sans Bold;
+	font-size: 150px;
+	color: ;
+	letter-spacing: 20px;
+	padding: 90px 60px 0px 0px;
+	text-align: right;
+
+}
+
+.author {
+
+}
+
+
+.text {
+	font-family: Roboto;
+	width: 450px;
+	font-size: 14px;
+	color: white;
+	line-height: 22px;
+	letter-spacing: ;
+	word-spacing: ;
+	text-align: left;
+	text-indent: ;
+	padding: 70px;
+}
+
+.italic {
+	font-style: italic;
+	
+}
+
+#dewaal {
+	position: absolute;
+	right: 200px;
+	top: 80px;
+	width: 400px;
+}
